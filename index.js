@@ -2,17 +2,16 @@
 
 const line = require('@line/bot-sdk');
 const express = require('express');
+require('dotenv').config();
 
 // create LINE SDK config from env variables
 const config = {
-  //channelSecret: process.env.CHANNEL_SECRET,
-  channelSecret: '3be833df52c7b528c02f967616bf35a5',
+  channelSecret: process.env.CHANNEL_SECRET,
 };
 
 // create LINE SDK client
 const client = new line.messagingApi.MessagingApiClient({
-  //channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN
-  channelAccessToken: 'KanK50RucvNsPt0FwPN38Is6mIF3RyTrQ+Ngw6BffEU83XPeuk6vaJvBO8YtdSsXq7d69/ipGTkj7JzZE25tuf1NPbibykwU1Otqpl3/BAAzRWoR0OrRQ26rH6vWwSKKRyuas2X8vLvbuIF8cApwKwdB04t89/1O/w1cDnyilFU='
+  channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN
 });
 
 // create Express app
@@ -44,7 +43,7 @@ function handleEvent(event) {
 
   // create an echoing text message
   const echo = { type: 'text', text: event.message.text };
-
+  
   // use reply API
   return client.replyMessage({
     replyToken: event.replyToken,
