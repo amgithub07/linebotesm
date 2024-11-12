@@ -1,0 +1,8 @@
+@host = http://localhost:3000
+POST {{host}}/callback
+Content-Type: application/json
+
+{
+    "name": "danny",
+	"age":18
+} 
