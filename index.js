@@ -44,9 +44,88 @@ function handleEvent(event) {
   const reqText = event.message.text;
   let respObj = { type: "text", text: reqText };
 
-  //我要預約
-  if (reqText == "我要預約") {
-    respObj = { type: "text", text: "您好~您的預約成功囉!" };
+  //立即預約
+  if (reqText == "立即預約") {
+    respObj = {
+      type: "flex",
+      altText: reqText,
+      contents: {
+        type: "bubble",
+        body: {
+          type: "box",
+          layout: "vertical",
+          contents: [
+            {
+              type: "box",
+              layout: "vertical",
+              contents: [
+                {
+                  type: "text",
+                  text: "請輸入你要預約的時間",
+                },
+              ],
+            },
+            {
+              type: "box",
+              layout: "vertical",
+              contents: [
+                {
+                  type: "button",
+                  action: {
+                    type: "message",
+                    label: "我要預約11/20 10:00 TRX",
+                    text: "我要預約11/20 10:00 TRX",
+                  },
+                  height: "sm",
+                  style: "primary",
+                  margin: "xxl",
+                  color: "#007bff",
+                },
+              ],
+            },
+            {
+              type: "box",
+              layout: "vertical",
+              contents: [
+                {
+                  type: "button",
+                  action: {
+                    type: "message",
+                    label: "我要預約11/20 19:00 TRX",
+                    text: "我要預約11/20 19:00 TRX",
+                  },
+                  style: "primary",
+                  margin: "md",
+                  height: "sm",
+                },
+              ],
+            },
+            {
+              type: "box",
+              layout: "vertical",
+              contents: [
+                {
+                  type: "button",
+                  action: {
+                    type: "message",
+                    label: "我要預約11/20 20:15 瑜珈",
+                    text: "我要預約11/20 20:15 瑜珈",
+                  },
+                  height: "sm",
+                  style: "primary",
+                  margin: "md",
+                  color: "#6F4116",
+                },
+              ],
+            },
+          ],
+        },
+      },
+    };
+  }
+
+  if ("我要預約11/20 10:00 TRX".indexOf("我要預約") != -1) {
+    respObj = { type: "text", text: "你好~您的預約成功囉!" };
   }
 
   if (reqText == "場館資訊") {
