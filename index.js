@@ -41,7 +41,7 @@ function handleEvent(event) {
   }
 
   //我要預約
-  const result = event.message.text;
+  let result = event.message.text;
   if (result == "我要預約") {
     result = "您好~您的預約成功囉!";
   }
