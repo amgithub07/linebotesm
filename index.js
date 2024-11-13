@@ -48,7 +48,7 @@ function handleEvent(event) {
   if (reqText == "立即預約") {
     respObj = {
       type: "flex",
-      altText: reqText,
+      altText: "請輸入你要預約的時間",
       contents: {
         type: "bubble",
         body: {
@@ -124,7 +124,7 @@ function handleEvent(event) {
     };
   }
 
-  if ("我要預約11/20 10:00 TRX".indexOf("我要預約") == 0) {
+  if (reqText.indexOf("我要預約") == 0) {
     respObj = { type: "text", text: "你好~您的預約成功囉!" };
   }
 
