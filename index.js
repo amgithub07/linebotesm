@@ -124,7 +124,7 @@ function handleEvent(event) {
     };
   }
 
-  if ("我要預約11/20 10:00 TRX".indexOf("我要預約") != -1) {
+  if ("我要預約11/20 10:00 TRX".indexOf("我要預約") == 0) {
     respObj = { type: "text", text: "你好~您的預約成功囉!" };
   }
 
