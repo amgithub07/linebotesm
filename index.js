@@ -53,7 +53,7 @@ function handleEvent(event) {
     respObj = {
       type: "flex",
       altText: reqText,
-      content: {
+      contents: {
         type: "bubble",
         hero: {
           type: "image",
