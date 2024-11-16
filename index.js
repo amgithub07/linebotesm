@@ -1,14 +1,16 @@
 "use strict";
 
-import { createRequire } from "module";
-const require = createRequire(import.meta.url);
+// import { createRequire } from "module";
+// const require = createRequire(import.meta.url);
+
+const classes = require("./static/課程介紹.json");
+const location = require("./static/場館資訊.json");
 const reservationStap1 = require("./static/預約課程日期.json");
 const reservationStap2 = require("./static/預約課程時間.json");
 const reservationStapSuccess = require("./static/預約成功.json");
 //const reservationFail = require("./static/預約失敗.json");
 
-const classes = require("./static/課程介紹.json");
-const location = require("./static/場館資訊.json");
+//import { classes } from "./static/課程介紹";
 
 const line = require("@line/bot-sdk");
 const express = require("express");
@@ -54,7 +56,6 @@ function handleEvent(event) {
   const reqText = event.message.text;
   let respObj = { type: "text", text: reqText };
 
-  //立即預約
   if (reqText == "我要預約") {
     respObj = reservationStap1;
   }
