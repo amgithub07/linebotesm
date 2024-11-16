@@ -57,23 +57,43 @@ function handleEvent(event) {
   let respObj = { type: "text", text: reqText };
 
   if (reqText == "我要預約") {
-    respObj = reservationStap1;
+    respObj = {
+      type: "flex",
+      altText: "我要預約",
+      contents: reservationStap1,
+    };
   }
 
   if (reqText.indexOf("預約日期") == 0) {
-    respObj = reservationStap2;
+    respObj = {
+      type: "flex",
+      altText: "我要預約",
+      contents: reservationStap2,
+    };
   }
 
   if (reqText.indexOf("預約課程") == 0) {
-    respObj = reservationStapSuccess;
+    respObj = {
+      type: "flex",
+      altText: "我要預約",
+      contents: reservationStapSuccess,
+    };
   }
 
   if (reqText == "場館資訊") {
-    respObj = location;
+    respObj = {
+      type: "flex",
+      altText: "我要預約",
+      contents: location,
+    };
   }
 
   if (reqText == "課程介紹") {
-    respObj = classes;
+    respObj = {
+      type: "flex",
+      altText: "我要預約",
+      contents: classes,
+    };
   }
 
   // use reply API
