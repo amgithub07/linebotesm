@@ -1,0 +1,57 @@
+{
+    "type": "bubble",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "請輸入您要預約的日期"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "text": "預約日期11/20",
+                    "label": "11/20"
+                },
+                "margin": "xl",
+                "style": "link",
+                "height": "sm"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "text": "預約日期11/21",
+                    "label": "11/21"
+                },
+                "margin": "md",
+                "height": "sm",
+                "style": "link"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "text": "預約日期11/22",
+                    "label": "11/22"
+                },
+                "margin": "md",
+                "style": "link",
+                "height": "sm"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "text": "預約日期11/23",
+                    "label": "11/23"
+                },
+                "margin": "md",
+                "style": "link",
+                "height": "sm"
+            }
+        ]
+    }
+}

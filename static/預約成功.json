@@ -1,0 +1,40 @@
+{
+    "type": "bubble",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "您好~您的預約已經完成囉!"
+            },
+            {
+                "type": "text",
+                "text": "記得準時來上課喔!"
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "預約日期: XX/XX",
+                        "color": "#888888",
+                        "align": "start"
+                    },
+                    {
+                        "type": "text",
+                        "text": "課程名稱: XXXX",
+                        "color": "#888888"
+                    },
+                    {
+                        "type": "text",
+                        "text": "上課時間: XX:XX",
+                        "color": "#888888"
+                    }
+                ],
+                "margin": "xl"
+            }
+        ]
+    }
+}

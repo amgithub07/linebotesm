@@ -1,0 +1,57 @@
+{
+    "type": "bubble",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "請選擇11/20的課程時間"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "text": "預約課程能量活化瑜珈",
+                    "label": "09:30 能量活化瑜珈"
+                },
+                "margin": "xl",
+                "style": "link",
+                "height": "sm"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "text": "預約課程BodyFly法國空中瑜珈",
+                    "label": "10:30 BodyFly法國空中瑜珈"
+                },
+                "margin": "md",
+                "height": "sm",
+                "style": "link"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "text": "預約課程POUND-FIT搖滾重擊",
+                    "label": "19:00 POUND-FIT搖滾重擊"
+                },
+                "margin": "md",
+                "style": "link",
+                "height": "sm"
+            },
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "text": "預約課程彼拉提斯全器械",
+                    "label": "20:15 彼拉提斯全器械"
+                },
+                "margin": "md",
+                "style": "link",
+                "height": "sm"
+            }
+        ]
+    }
+}
