@@ -10,15 +10,19 @@ const client = new line.messagingApi.MessagingApiClient({
     "4oc/ISDnGEz58zWSteJ2PBkVJ7Nwvxh8M+bDxTJGxFxL/uRGyKYBtI4ExKOTmXlrq7d69/ipGTkj7JzZE25tuf1NPbibykwU1Otqpl3/BADcvAJsl/U8zQHA7LYsmAKBBrnPnVaUtddC9Q9wIBRqYAdB04t89/1O/w1cDnyilFU=",
 });
 
+// create LINE SDK config from env variables
+const config = {
+  channelSecret: "3be833df52c7b528c02f967616bf35a5",
+};
+
 // register a webhook handler with middleware
 // about the middleware, please refer to doc
-router.post("/callback", async function (req, res) {
-  console.log("hello amber");
+router.post("/callback", line.middleware(config), (req, res) => {
   Promise.all(req.body.events.map(handleEvent))
     .then((result) => res.json(result))
     .catch((err) => {
       console.error(err);
-      res.status(500).end();
+      res.status(504).end();
     });
 });
 
