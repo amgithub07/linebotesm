@@ -4,11 +4,6 @@ const line = require("@line/bot-sdk");
 const dotenv = require("dotenv");
 dotenv.config({ path: "./config.env" });
 
-// create LINE SDK config from env variables
-const config = {
-  channelSecret: "3be833df52c7b528c02f967616bf35a5",
-};
-
 // create LINE SDK client
 const client = new line.messagingApi.MessagingApiClient({
   channelAccessToken:
@@ -17,7 +12,8 @@ const client = new line.messagingApi.MessagingApiClient({
 
 // register a webhook handler with middleware
 // about the middleware, please refer to doc
-router.post("/callback", line.middleware(config), (req, res) => {
+router.post("/callback", async function (req, res) {
+  console.log("hello amber");
   Promise.all(req.body.events.map(handleEvent))
     .then((result) => res.json(result))
     .catch((err) => {
