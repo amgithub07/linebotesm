@@ -17,7 +17,9 @@ const config = {
 
 // register a webhook handler with middleware
 // about the middleware, please refer to doc
-router.post("/callback", line.middleware(config), (req, res) => {
+router.use(line.middleware(config));
+router.post("/callback", (req, res) => {
+  console.log("amber hello");
   Promise.all(req.body.events.map(handleEvent))
     .then((result) => res.json(result))
     .catch((err) => {
