@@ -10,6 +10,11 @@ const config = {
   channelSecret: process.env.CHANNEL_SECRET,
 };
 
+// create LINE SDK client
+const client = new line.messagingApi.MessagingApiClient({
+  channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
+});
+
 // register a webhook handler with middleware
 // about the middleware, please refer to doc
 // router.use(line.middleware(config));
