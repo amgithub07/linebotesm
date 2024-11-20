@@ -4,6 +4,7 @@ const express = require("express");
 const router = express.Router();
 const line = require("@line/bot-sdk");
 const dotenv = require("dotenv");
+dotenv.config({ path: "./config.env" });
 
 // create LINE SDK config from env variables
 const config = {
