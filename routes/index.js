@@ -4,32 +4,37 @@ const line = require("@line/bot-sdk");
 const dotenv = require("dotenv");
 dotenv.config({ path: "./config.env" });
 
-// create LINE SDK client
-const client = new line.messagingApi.MessagingApiClient({
-  channelAccessToken:
-    "4oc/ISDnGEz58zWSteJ2PBkVJ7Nwvxh8M+bDxTJGxFxL/uRGyKYBtI4ExKOTmXlrq7d69/ipGTkj7JzZE25tuf1NPbibykwU1Otqpl3/BADcvAJsl/U8zQHA7LYsmAKBBrnPnVaUtddC9Q9wIBRqYAdB04t89/1O/w1cDnyilFU=",
-});
-
-// create LINE SDK config from env variables
+// Line Bot 配置
 const config = {
-  channelSecret: "3be833df52c7b528c02f967616bf35a5",
+  channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
+  channelSecret: process.env.CHANNEL_SECRET,
 };
 
 // register a webhook handler with middleware
 // about the middleware, please refer to doc
-router.use(line.middleware(config));
-router.post("/callback", (req, res) => {
-  console.log("amber hello");
-  Promise.all(req.body.events.map(handleEvent))
-    .then((result) => res.json(result))
-    .catch((err) => {
-      console.error(err);
-      res.status(504).end();
-    });
+// router.use(line.middleware(config));
+// router.post("/callback", (req, res) => {
+//   console.log("amber hello");
+//   Promise.all(req.body.events.map(handleEvent))
+//     .then((result) => res.json(result))
+//     .catch((err) => {
+//       console.error(err);
+//       res.status(504).end();
+//     });
+// });
+router.post("/callback", line.middleware(config), async (req, res) => {
+  try {
+    const results = await Promise.all(req.body.events.map(handleEvent));
+    res.json(results);
+  } catch (err) {
+    console.error("Error handling events:", err);
+    res.status(500).end();
+  }
 });
 
 // event handler
 function handleEvent(event) {
+  console.log(event);
   if (event.type !== "message" || event.message.type !== "text") {
     // ignore non-text-message event
     return Promise.resolve(null);
