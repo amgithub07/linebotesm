@@ -1,0 +1,585 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "url": "https://developers-resource.landpress.line.me/fx/img/01_1_cafe.png",
+                "size": "full",
+                "aspectRatio": "20:13",
+                "aspectMode": "cover",
+                "action": {
+                    "type": "uri",
+                    "uri": "https://line.me/"
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "TRX x 核心壺鈴",
+                        "weight": "bold",
+                        "size": "md"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "margin": "md",
+                        "contents": [
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "text",
+                                "text": "5.0",
+                                "size": "sm",
+                                "color": "#999999",
+                                "margin": "md",
+                                "flex": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#666666",
+                                        "size": "sm",
+                                        "flex": 5,
+                                        "text": "TRX x 核心壺鈴課程結合懸吊訓練與壺鈴動作，全面鍛煉核心肌群、增強力量與穩定性。適合想提升體能、燃燒脂肪的你，打造強壯與平衡的身體！"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "text": "#最懂妳的全方位運動空間",
+                                "size": "sm",
+                                "color": "#666666"
+                            },
+                            {
+                                "type": "text",
+                                "text": "#瑪爾斯全方位運動空間",
+                                "size": "sm",
+                                "color": "#666666"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "了解更多",
+                            "text": "了解更多TRX x 核心壺鈴"
+                        },
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "url": "https://developers-resource.landpress.line.me/fx/img/01_1_cafe.png",
+                "size": "full",
+                "aspectRatio": "20:13",
+                "aspectMode": "cover",
+                "action": {
+                    "type": "uri",
+                    "uri": "https://line.me/"
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "彼拉提斯全器械",
+                        "weight": "bold",
+                        "size": "md"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "margin": "md",
+                        "contents": [
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "text",
+                                "text": "5.0",
+                                "size": "sm",
+                                "color": "#999999",
+                                "margin": "md",
+                                "flex": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#666666",
+                                        "size": "sm",
+                                        "flex": 5,
+                                        "text": "彼拉提斯全器械課程運用專業器械，如Reformer、Cadillac等，精準訓練核心肌群，改善體態、提升柔軟度與力量，適合所有想要雕塑身形與增強身體控制力的人！"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "text": "#最懂妳的全方位運動空間",
+                                "size": "sm",
+                                "color": "#666666"
+                            },
+                            {
+                                "type": "text",
+                                "text": "#瑪爾斯全方位運動空間",
+                                "size": "sm",
+                                "color": "#666666"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "了解更多",
+                            "text": "了解更多彼拉提斯全器械"
+                        },
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "url": "https://developers-resource.landpress.line.me/fx/img/01_1_cafe.png",
+                "size": "full",
+                "aspectRatio": "20:13",
+                "aspectMode": "cover",
+                "action": {
+                    "type": "uri",
+                    "uri": "https://line.me/"
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "彼拉提斯",
+                        "weight": "bold",
+                        "size": "md"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "margin": "md",
+                        "contents": [
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "text",
+                                "text": "5.0",
+                                "size": "sm",
+                                "color": "#999999",
+                                "margin": "md",
+                                "flex": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#666666",
+                                        "size": "sm",
+                                        "flex": 5,
+                                        "text": "彼拉提斯課程透過專注的動作與呼吸控制，強化核心肌群、改善體態與柔軟度，提升身體平衡與穩定性。無論初學者或進階者，都能找到適合的訓練方式！"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "text": "#最懂妳的全方位運動空間",
+                                "size": "sm",
+                                "color": "#666666"
+                            },
+                            {
+                                "type": "text",
+                                "text": "#瑪爾斯全方位運動空間",
+                                "size": "sm",
+                                "color": "#666666"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "了解更多",
+                            "text": "了解更多彼拉提斯"
+                        },
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "url": "https://developers-resource.landpress.line.me/fx/img/01_1_cafe.png",
+                "size": "full",
+                "aspectRatio": "20:13",
+                "aspectMode": "cover",
+                "action": {
+                    "type": "uri",
+                    "uri": "https://line.me/"
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "BoxingFit互動拳擊",
+                        "weight": "bold",
+                        "size": "md"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "margin": "md",
+                        "contents": [
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "text",
+                                "text": "5.0",
+                                "size": "sm",
+                                "color": "#999999",
+                                "margin": "md",
+                                "flex": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#666666",
+                                        "size": "sm",
+                                        "flex": 5,
+                                        "text": "BoxingFit互動拳擊結合拳擊技巧與體能訓練，在互動樂趣中燃燒熱量、釋放壓力，增強力量、敏捷與協調性。適合想要挑戰自我、享受高能量運動的你！"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "text": "#最懂妳的全方位運動空間",
+                                "size": "sm",
+                                "color": "#666666"
+                            },
+                            {
+                                "type": "text",
+                                "text": "#瑪爾斯全方位運動空間",
+                                "size": "sm",
+                                "color": "#666666"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "了解更多",
+                            "text": "了解更多BoxingFit互動拳擊"
+                        },
+                        "style": "link"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "url": "https://developers-resource.landpress.line.me/fx/img/01_1_cafe.png",
+                "size": "full",
+                "aspectRatio": "20:13",
+                "aspectMode": "cover",
+                "action": {
+                    "type": "uri",
+                    "uri": "https://line.me/"
+                }
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "能量活化瑜珈",
+                        "weight": "bold",
+                        "size": "md"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "baseline",
+                        "margin": "md",
+                        "contents": [
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "icon",
+                                "size": "sm",
+                                "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                            },
+                            {
+                                "type": "text",
+                                "text": "5.0",
+                                "size": "sm",
+                                "color": "#999999",
+                                "margin": "md",
+                                "flex": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [
+                                    {
+                                        "type": "text",
+                                        "wrap": true,
+                                        "color": "#666666",
+                                        "size": "sm",
+                                        "flex": 5,
+                                        "text": "能量活化瑜珈透過流動的姿勢與深層呼吸，釋放壓力、喚醒身體能量，提升專注力與靈活性。適合想找回平衡、增強身心活力的你！"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "text": "#最懂妳的全方位運動空間",
+                                "size": "sm",
+                                "color": "#666666"
+                            },
+                            {
+                                "type": "text",
+                                "text": "#瑪爾斯全方位運動空間",
+                                "size": "sm",
+                                "color": "#666666"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "了解更多",
+                            "text": "了解更多能量活化瑜珈"
+                        },
+                        "style": "link"
+                    }
+                ]
+            }
+        }
+    ]
+}
