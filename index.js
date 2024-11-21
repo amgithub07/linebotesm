@@ -39,7 +39,10 @@ app.get("/hello", function (req, res, next) {
 app.post("/callback", line.middleware(config), (req, res) => {
   console.log(req.body);
   Promise.all(req.body.events.map(handleEvent))
-    .then((result) => res.json(result))
+    .then((result) => {
+      console.log(result);
+      res.json(result);
+    })
     .catch((err) => {
       console.error(err);
       res.status(500).end();
